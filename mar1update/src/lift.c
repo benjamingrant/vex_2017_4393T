@@ -3,8 +3,8 @@
 
 void setlift(bool up, bool down){
   if(up && !down){
-    motorSet(4, 127) ; // left lift motor moves up or down
-    motorSet(5, -127) ; // right lift motor moves up or down
+    motorSet(4, 127) ; // left lift motor moves up
+    motorSet(5, -127) ; // right lift motor moves up
   }
   else if(down && !up){
     motorSet(4, -127) ; // left lift motor moves up or down
